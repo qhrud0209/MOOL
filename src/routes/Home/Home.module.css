@@ -1,6 +1,17 @@
-.button {
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vh;
+  margin-bottom: 0px;
 }
-.imgbutton {
-}
-.img {
+.ISHSlogo {
+  background-color: transparent;
+  width: 55px;
+  height: 55px;
+  margin-top: 8px;
+  border: none;
+  margin-left: auto;
+  margin-right: 6px;
 }

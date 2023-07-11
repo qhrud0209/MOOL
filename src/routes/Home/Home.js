@@ -1,8 +1,10 @@
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
-import Button from "../components/Global/Button";
-import ImgButton from "../components/Global/ImgButton";
+import Button from "../../components/Global/Button";
+import ImgButton from "../../components/Global/ImgButton";
 import styles from "./Home.module.css";
+import Title from "../../components/images/Title.jpg";
+import ISHS from "../../components/images/ISHSlogo.png";
 
 function Home() {
   const navigate = useNavigate();
@@ -28,7 +30,10 @@ function Home() {
         />
       </div>
       <div className={styles.title}>
-        <img className={styles.titleimage} src={Logo}></img>
+        <img className={styles.titleimage} src={Title}></img>
+      </div>
+      <div>
+        <img className={styles.ISHSlogo} src={ISHS}></img>
       </div>
     </div>
   );

@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
-import styles from "./Result.module.css";
 
 function Result() {
   const navigate = useNavigate();
@@ -8,10 +7,6 @@ function Result() {
     navigate(path);
     console.log("Redirecting...");
   };
-
-
-  return(
-
-    
-  )
 }
+
+export default Result;
