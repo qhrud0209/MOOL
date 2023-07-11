@@ -15,3 +15,33 @@
   margin-left: auto;
   margin-right: 6px;
 }
+.titleimage {
+  width: 45vh;
+  margin-bottom: 25px;
+}
+.imgbutton {
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+
+  border: none;
+  margin: none;
+}
+.img {
+  border: none;
+  margin: none;
+}
+.button {
+  font-family: "Jua", sans-serif;
+  background-color: rgb(25, 156, 222);
+  color: white;
+  width: 80vw;
+  height: 40vw;
+  max-width: 360px;
+  max-height: 180px;
+  border-radius: 15px;
+  border: none;
+  font-weight: 400;
+  font-size: 1.5em;
+  display: inline-block;
+}

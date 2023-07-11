@@ -15,7 +15,7 @@ function Home() {
 
   return (
     <div>
-      <div>
+      <div className={styles.Imgbuttonloca}>
         <ImgButton
           onClick={() => navigateTo("/Explain")}
           classname={styles.imgbutton}
