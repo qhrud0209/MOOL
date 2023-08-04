@@ -2,9 +2,23 @@
 
 .tomiddle {
   font-family: "Jua", sans-serif;
-  font-weight: 400;
-  font-size: 45px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.imgbackBtn {
+  width: 50px;
+  height: 50px;
+}
+
+.backBtn {
+  width: 50px;
+  height: 50px;
+  padding: 0em;
+  border: 0em;
+}
+
+.Title {
+  font-size: 30px;
 }
